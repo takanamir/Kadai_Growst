@@ -1,4 +1,5 @@
 package S02;
+
 /**
  * コンテナ(土台)クラス
  * @author Owner
