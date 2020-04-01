@@ -2,6 +2,18 @@ package S02;
 
 // 型パラメータサンプルプログラム
 public class S02L03 {
+	
+	/*
+	1.型パラメータを表す文字の種類 => 処理対象
+	  E: Element => 要素オブジェクト
+	  K: Key => キーオブジェクト
+	  V: Value => 値を表すオブジェクト
+	  T: Type => 一般的なクラスのオブジェクト
+	  ? 型を処理せず => 全オブジェクト
+	2.プログラミング不可例
+	  new T();
+	  List<> list = new ArrayList<>();
+	 */
 
 	public static void main(String[] args) {
 		Base01<String> b01 = new Base01<>("Base01 String");
