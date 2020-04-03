@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 
 /*
  * ストリームの種類とパイプライン
+ * ストリーム、型変換できるものが3種類ある
  */
 public class S05L02 {
 	public static void main(String[] args) {
